@@ -527,44 +527,105 @@ button {
 }
 
 /* Mobile Phone */
-@media (max-width: 450px) {
+@media screen and (max-width: 680px) {
   html {
     font-size: 55%;
     display: grid;
+    /* max-width: 200px; */
+    /* max-height: 50px; */
   }
   .header-container {
-    display: flex;
     flex-direction: column;
-    position: absolute;
-    /* top: 100%; */
-    /* right: -100%; */
-    background-color: #fff;
-    width: 30rem;
-    /* height: 100vh; */
-  }
-  body {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  .top {
-    display: flex;
-    flex-direction: column;
-    width: 30rem;
     justify-content: center;
     align-items: center;
   }
-  .section-container {
-    display: grid;
+  .section-content-container {
     flex-direction: column;
-    width: 30rem;
-    max-width: 30rem;
-    min-height: 20rem;
     justify-content: center;
     align-items: center;
+  }
+  #top {
+    font-size: 20px;
+  }
+  #top > p {
+    font-size: 20px;
+  }
+  /* slide banner */
+  .slide-banner {
+    width: auto;
+    /* float: none; */
+  }
+  .paragraf {
+    padding: 16px 0 0 45px;
+    font-size: 10px;
   }
   .bg-slide {
-    width: 20rem;
+    max-width: 250px;
+    max-height: 200px;
+    margin-right: 100px;
+  }
+  .footer-slide > section > p {
+    font-size: 15px;
+  }
+  .footer-img {
+    margin: 0;
+  }
+  /* konten form */
+  .konten-form {
+    max-width: 250px;
+    max-height: 350px;
+    align-items: center;
+    justify-content: center;
+    /* float: none; */
+  }
+  .konten-form > header > h2 {
+    padding: 16px 0px 0px 80px;
+    margin: 0 0 0;
+  }
+  .konten-form > header > p {
+    padding: 16px 0 0 45px;
+    max-width: 150px;
+  }
+  .konten-form > form > section > .nama {
+    padding: 0 0 0 50px;
+  }
+  .name-input {
+    max-width: 50px;
+    max-height: 25px;
+    margin: 5px 0 5px 45px;
+  }
+  .konten-form > form > section > .email {
+    padding: 0px 0 0 50px;
+  }
+  .email-input {
+    max-width: 50px;
+    max-height: 25px;
+    margin: 5px 0 5px 45px;
+  }
+  .konten-form > form > section > .option {
+    padding: 0px 0 0 50px;
+  }
+  .opt-group {
+    max-height: 25px;
+    margin: 5px 0 5px 45px;
+    padding: 0 50px 0 0;
+  }
+  .button-send {
+    max-height: 25px;
+    margin: 5px 0 5px 45px;
+    padding: 0 150px 0 0;
+  }
+  .button-send > p {
+    padding: 0 0 0 50px;
+    margin: 0 0 3px 0;
+  }
+
+  /* our package */
+  .row1 {
+    flex-direction: column;
+  }
+  .row2 {
+    flex-direction: column;
   }
 }
 /* media queery end */
