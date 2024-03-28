@@ -204,6 +204,9 @@ a {
   background-repeat: no-repeat;
   /* background-blend-mode: color; */
 }
+.konten-form form ::placeholder {
+  padding-left: 10px;
+}
 
 /* konten form kontak us dll start */
 .konten-form > header > h2 {
@@ -539,11 +542,15 @@ button {
     justify-content: center;
     align-items: center;
   }
+  .nav-container {
+    margin-top: 16px;
+  }
   .section-content-container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   #top {
     font-size: 20px;
   }
@@ -581,7 +588,7 @@ button {
   }
   /* konten form */
   .konten-form {
-    max-width: 350px;
+    max-width: auto;
     max-height: 350px;
     align-items: center;
     justify-content: center;
@@ -637,11 +644,11 @@ button {
   }
   .row1 {
     flex-direction: column;
-    margin-top: 150px;
+    margin: 150px 0 0 16px;
   }
   .row2 {
     flex-direction: column;
-    margin-top: 150px;
+    margin: 150px 0 0 16px;
   }
   .menu-card-img {
     width: 100px;
@@ -673,4 +680,32 @@ button {
     margin: 24px 0 0 100px;
   }
 }
+.slogan {
+  margin: 100px 0 0 0;
+}
+.footer-konten {
+  margin-left: 80px;
+}
+/* footer start */
+
+.logo-footer {
+  max-width: 250px;
+  max-height: 250px;
+}
+.p2 {
+  padding: 0 6px 0 0;
+}
+.p3 {
+  margin: 0 5px 8px 0;
+}
+.p4 {
+  margin: 0 0 8px 50px;
+}
+.p5 {
+  margin: 0 0 0 120px;
+}
+.p6 {
+  margin: 0 0 0 20px;
+}
+/* footer end */
 /* media queery end */
