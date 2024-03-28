@@ -589,6 +589,7 @@ button {
   /* konten form */
   .konten-form {
     max-width: auto;
+    min-height: 350px;
     max-height: 350px;
     align-items: center;
     justify-content: center;
@@ -685,6 +686,8 @@ button {
 }
 .footer-konten {
   margin-left: 80px;
+  width: 350px;
+  min-width: 250px;
 }
 /* footer start */
 
